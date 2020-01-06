@@ -1,0 +1,169 @@
+*,:before,:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    font-family: 'Lilita One', cursive;
+}
+
+.text-medium{
+    font-size: 1.5rem;
+}
+
+.text-small{
+    font-size: 1rem;
+}
+
+.padding-bottom{
+    padding-bottom:1rem;
+}
+
+@media all and (max-width:770px){
+    .dropdown{
+        width: 100% !important;
+    }
+    .allline{
+        display: block;
+        width: 100% !important;
+    }
+    .halfSpace{
+        width:48% !important;
+    }
+    .margin-top-1rem{
+        display: block;
+        margin-top: 1rem;
+    }
+}
+
+@media all and (max-width:622px){
+    .dropdown{
+        width: 100% !important;
+        overflow: hidden;
+    }
+    .allline{
+        display: block;
+        width: 100% !important;
+    }
+    .halfSpace{
+        width:100% !important;
+    }
+    body{
+        padding: 1rem 0 !important;
+        margin: 0 !important;
+    }
+    .row{
+        box-sizing: border-box !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .padding{
+        padding: 1rem !important;
+    }
+
+    .col-md-12 {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .container-fluid{
+        padding:0 !important;
+        margin: 0 !important;
+        box-sizing: border-box !important;
+    }
+    .jumbotron{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .jumbotron h1{
+        font-size: 2rem !important;
+    }
+    .text-medium{
+        font-size: 1rem !important;
+    }
+}
+
+
+
+.nav{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.form-width-medium{
+    width: 55vw;
+    margin:0 auto;
+}
+.form-width-full{
+    width: auto;
+    margin:0 auto;
+}
+
+.form-width-large{
+    width: 55vw;
+    margin:0 auto;
+}
+
+@media all and (min-width:900px){
+    .form-width-medium{
+        width: 35vw;
+        margin:0 auto;
+    }
+}
+
+.modal-body{
+    max-height: 70vh !important;
+    overflow-y: scroll !important;
+}
+
+button:focus{
+outline:none;
+}
+.dropdown-menu li span{
+    padding: 0.2rem 1rem;
+}
+
+h1{
+    font-family: 'Baloo Chettan', cursive !important;
+    -webkit-box-shadow: -7px 6px 40px -6px rgba(130,128,130,1);
+    -moz-box-shadow: -7px 6px 40px -6px rgba(130,128,130,1);
+    box-shadow: -7px 6px 40px -6px rgba(130,128,130,1);
+    padding: 1rem 0;
+    border-radius: 8%;
+    letter-spacing: 1px;
+}
+body{
+    height: 100vh;
+    width:100vw;
+}
+#footer{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.74);
+    width:100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 8%;
+}
+
+.UnicarmWriting{
+    background-color: rgba(197, 240, 155, 0.89);
+    display: inline-block;
+    padding: 0.2rem 0.3rem;
+    border-radius: 2px;
+    transform: translateY(50%) rotate(-3deg);
+    font-family: 'Pacifico', cursive;
+}
+.copyright{
+    color: gray;
+    display: block;
+    font-size: 0.6rem;
+    position: relative;
+    margin-top: 4%;
+    font-family: 'Lilita One', cursive;
+}
+@media all and (max-width:991px){
+    
+    .copyright{
+        margin-top: -5%;
+        font-size:  0.4rem;
+    }
+}

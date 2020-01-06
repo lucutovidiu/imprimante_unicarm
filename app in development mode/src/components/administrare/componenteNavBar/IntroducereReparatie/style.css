@@ -1,0 +1,10 @@
+#select_sesizare{
+    width: 100% !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#select_sesizare option{
+    width: 300px !important;
+    white-space: normal; word-wrap: break-word; overflow: auto;
+}

@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./img/background.jpg'); 
+  /* linear-gradient(to right, #ecf0f191,rgba(204, 204, 204, 0.404) ), */
+  background-position: top;
+}
+
+.bg-red{
+  background-color:#e74c3c !important;
+  cursor: not-allowed;
+      pointer-events: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*
+wraps the text on table cells
+*/
+table { 
+  table-layout:fixed;
+  width:100%;
+  height: auto;
+  word-wrap: break-word;
+}
+
+.margin-top{
+  margin-top:50px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+
+.navbar{
+  margin-top: -1rem;
+
+}
+
+@media all and (min-width:765px){
+  .img-logo{
+    display: inline-block;
+      width:130%;
+      margin-top:-0.5rem !important;
+  }
+}
+
+@media all and (min-width:1165px){
+  .img-logo{
+    display: inline-block;
+      width:130%;
+      margin-top:-0.75rem !important;
+  }
+}
+
+
+
+#exTab1 .tab-content {
+  /* color : white; */
+  /* background-color: #428bca; */
+  padding : 5px 15px;
+}
+
+#exTab2 h3 {
+  /* color : white; */
+  /* background-color: #428bca; */
+  padding : 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  /* color : white; */
+  /* background-color: #428bca; */
+  padding : 5px 15px;
+}
+h1{
+text-align: center;
+font-size: 3rem !important;
+  margin:3rem 2rem !important;
+}
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+.col-centered-h{
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  }
+.margin-top-2rem{
+  margin-top: 2rem;
+}
+.margin-bottom-2rem{
+  margin-bottom: 2rem;
+}
+
+@media all and (max-width:991px){
+  .margin-top-2rem-md{
+    margin-top: 2rem;
+  }
+  .margin-bottom-2rem-md{
+    margin-bottom: 2rem;
+  }
+}
+
+.jumbotron{
+  opacity: 0.98;
+  padding: 0 1rem;
+}
+.jumbotron>h1{
+  font-size: 2rem !important;
+  margin:0 !important;
+  padding: 0 !important;
+}
+.img{
+  width: 9%;
+  float: left;
+  margin-top: -0.8rem;
+}
+
+.logo{
+  float: left;
+  margin-left: 1rem;
+}
+
+.smallText{
+  font-size: 0.1rem;
+}
+
+
+
+

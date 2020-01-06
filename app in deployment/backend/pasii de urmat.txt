@@ -1,0 +1,48 @@
+pas 1: se introduce sesizare pt o imprimanta, imprimanta va intra intr-o stare "Trimisa de la magazin"
+        - se introducere o noua sesizare din meniul -> Probleme Imprimante -> Sesizare PRoblema Noua
+        - sesizarea ramane deschisa pana la introducerea reparatiei din Meniul -> Administrare -> Introducere Reparatie
+
+pas 2: cand se primeste imprimanta va trebui schimbata starea in : "Primita de la magazin"
+        - Cand imprimanta ajunge de la magain din meniul -> Administrare -> Updatare Imformatii -> Update Imprimante
+           se va introduce starea de mai sus 
+        - La primita de la magazin se poate introduce si locatia curenta a imprimantei de ex: G29 - Dep Vetis
+
+pas 3: se va transfera in statusul : "Trimisa - la Reparatie" in momentul trimiterii la Reparatie
+        - cand se va trimite la reparatie va schimba starea dinou cea de mai sus din 
+          maniul -> Administrare -> Updatare Imformatii -> Update Imprimante
+        - imprimanta va ramane in starea "Primita de la magazin" daca se va repara in incinta firmei
+
+pas 4: se va transfera in statusul : "Reparata - In asteptate de utilizator" cand se primeste de la Reparatie
+        - odata primita de la reparatie imprimanta va intra in statusul de mai sus din meniul  
+          -> Administrare -> Updatare Imformatii -> Update Imprimante
+          si automat imprimanta va trece la Locatia - G29 - Vetis in asteptate de nou utilizator
+
+pas 5: la trimitere de nou utilizator se va transfera cu statusul: "Utilizabila - Trimisa la Magazin"+ locatie noua
+        - cand se trimite imprimanta la un magazin odata reparata dinou din meniul 
+          -> Administrare -> Updatare Imformatii -> Update Imprimante se va alege statusl corespunzator si noua locatie
+
+
+- noile imprimante introduse in sistem vor avea statusul : "Noua - In Depozit"
+
+------------------------------------------------------------------------------------
+din meniul -> Administrare -> Updatare Imformatii -> Update Useri
+- se va putea schimba parola pt utilizatori
+
+------------------------------------------------------------------------------------
+din meniul -> Administrare -> Updatare Imformatii -> Update Magazin
+- se va putea schimba locatia magazinul in cazul in care a fost introdus gresit de la inceput
+
+------------------------------------------------------------------------------------
+din meniul -> Administrare -> Updatare Imformatii -> Update Imprimante  
+- ve vor putea schimba urmatorele informatii si se poate schimba statusul fortat la orice imprimanta
+- se poate schimba - locatia magazinului
+                   - statusul 
+                   - pretul de listaa
+                   - data instalarii
+se poate face mai multe modificari consecutiv la mai multe magazine de odata
+------------------------------------------------------------------------------------
+- din meniul Listare/Stergere Magazine / Useri / Imprimante 
+     - se va putea vedea si sterge una sau mai multe din cele de mai sus
+------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+

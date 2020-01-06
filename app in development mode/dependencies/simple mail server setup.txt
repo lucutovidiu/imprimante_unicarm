@@ -1,0 +1,14 @@
+Locate the entries
+[mail function]
+; XAMPP: Don’t remove the semi column if you want to work with an SMTP Server like Mercury
+; SMTP = localhost
+; smtp_port = 25
+Remove the semi colons before SMTP and smtp_port and set the SMTP to your smtp server and the port to your smtp port. Your settings should look as follows
+SMTP = smtp.example.com
+smtp_port = 25
+Note the SMTP settings can be gotten from your web hosting providers.
+If the server requires authentication, then add the following lines.
+auth_username = imprimante@unicarm.ro
+auth_password = Sit2010Unicarm
+Save the new changes.
+Restart Apache server.

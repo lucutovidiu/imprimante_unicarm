@@ -1,0 +1,30 @@
+npm install react-router-dom react-helmet react-snapshot styled-components
+
+
+
+First off, change your package.json build option.
+"build": "react-scripts build && react-snapshot"
+
+
+
+And then patch up the default src/index.js.
+import React from 'react';
+import { render } from 'react-snapshot';
+import App from './App';
+import './index.css';
+render(
+  <App />,
+  document.getElementById('root')
+);
+
+npm run build
+
+npm install -g serve
+serve -s build
+
+
+serve -s build -l 3000
+
+
+docs
+https://facebook.github.io/create-react-app/docs/deployment

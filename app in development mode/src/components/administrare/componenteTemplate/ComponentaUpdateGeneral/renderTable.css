@@ -1,0 +1,46 @@
+.itemToDelete{
+    background-color: rgba(170, 57, 57, 0.726) !important;
+}
+.cursor{
+    cursor: pointer;
+}
+
+.borderIncorectInfo{
+    border: 1px solid rgba(170, 57, 57, 0.726);
+}
+
+.btn-bg-reg{
+    background-color: rgba(170, 57, 57, 0.726) !important;
+}
+
+.SuggestionBox{
+    position: absolute;
+    background-color: #3498db;
+    padding:0rem 1rem;
+    border-radius: 1%;
+    text-indent: 1%;
+    font-size: 1.2rem;
+    /* width: 200px; */
+    /* line-height: 2rem; */
+    /* height: 40px; */
+    /* font-weight: bold; */
+}
+
+.infoSuccess{
+    position: absolute; 
+    padding: 0.4rem 1rem;
+    background-color: green;
+    transform: translateY(-100%);
+}
+
+.infoFail{
+    position: absolute; 
+    padding: 0.4rem 1rem;
+    background-color: #e74c3c;
+    transform: translateY(-100%);
+}
+
+.errorMsgSuggestionBox{
+    padding: 1rem;
+    border-radius: 3%;
+}
